@@ -23,7 +23,7 @@ CORS(app)
 
 # Global variables for the model
 pipe = None
-model_id = "runwayml/stable-diffusion-v1-5"
+model_id = "stabilityai/sd-turbo"
 
 # MongoDB connection (for metadata only)
 mongo_client = None

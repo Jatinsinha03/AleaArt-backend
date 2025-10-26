@@ -30,7 +30,6 @@ COPY python_backend_simple.py ./
 
 # Create Hugging Face cache directory (models will download at runtime)
 RUN mkdir -p ${HF_HOME}
-VOLUME ["/var/huggingface"]
 
 EXPOSE 8000
 

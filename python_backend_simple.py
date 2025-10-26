@@ -176,7 +176,7 @@ def generate_image():
         
         # Extract parameters
         prompt = data.get('prompt', '')
-        steps = 40
+        steps = 4
         cfg_scale = data.get('cfg_scale', 7.5)
         seed = data.get('seed', None)
         width = data.get('width', 512)

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Node (just in case)
+node_modules/
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Git
+.git/
+.gitignore
+
+# Caches
+.cache/
+.huggingface/
+
+# Local data / artifacts
+logs/
+*.log
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# Model/data caches at runtime (mounted as volume)
+/var/huggingface/
